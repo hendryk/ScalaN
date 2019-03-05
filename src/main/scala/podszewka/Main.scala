@@ -28,8 +28,8 @@ object Main extends App {
 
 class Vector2D(val x: Double, val y: Double) {
 
-    def magnify(amt: Double): Vector2D = {
-        new Vector2D(x * amt, y * amt)
+    def magnify(mnoznik: Double): Vector2D = {
+        new Vector2D(x * mnoznik, y * mnoznik)
     }
 
     def -(b: Vector2D): Vector2D = {
