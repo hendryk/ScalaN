@@ -25,6 +25,10 @@ object Main extends App {
     println(g)
 
     val punkt1 = new Point2(1, 1)
+    val punkt2 = new Point2(1, 2)
+    val punkt3 = new Point2(1, 1)
+
+    print(punkt1 == punkt3)
 }
 
 
