@@ -1,7 +1,7 @@
 package podszewka
 
 object Main extends App {
-    println("Posadzili Bacę na skraju")
+    println("Posadzili Bacę na skraju Dunajca")
 
     def funkcja(x: Int, y: Int): Int = {
         x * y
