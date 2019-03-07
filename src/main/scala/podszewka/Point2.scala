@@ -13,11 +13,11 @@ class Point2(var x: Int, var y: Int) extends Equals {
         case _ => false
     }
 
-    override def equals(that: Any): Boolean = {
+    override def equals(tamten: Any): Boolean = {
         def strictEquals(other: Point2) =
             this.x == other.x && this.y == other.y
 
-        that match {
+        tamten match {
             case a: AnyRef if this eq a => true
             case p: Point2 => (p canEqual this) && strictEquals(p)
             case _ => false
