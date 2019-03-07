@@ -28,7 +28,8 @@ object Main extends App {
     val punkt2 = new Point2(1, 2)
     val punkt3 = new Point2(1, 1)
 
-    print(punkt1 == punkt3)
+    println(punkt1 == punkt3)
+    println(punkt1 == punkt2)
 }
 
 
