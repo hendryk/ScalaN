@@ -30,6 +30,7 @@ object Main extends App {
 
     println(punkt1 == punkt3)
     println(punkt1 == punkt2)
+    println(punkt1 == punkt1)
 }
 
 
